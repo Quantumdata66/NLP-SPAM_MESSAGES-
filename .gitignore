@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Trained model files
+models/spam_distilbert_final/
+
+# Environment/secrets
+.env
+.streamlit/secrets.toml
+
+# Trained model files
+models/
