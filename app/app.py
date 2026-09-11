@@ -18,7 +18,7 @@ st.set_page_config(
 # Load Model and Tokenizer
 # --------------------------------------------------
 
-MODEL_PATH = "models/spam_distilbert_final"
+MODEL_PATH = "nurdul/spam_distilbert-sms"
 
 @st.cache_resource
 def load_model():
