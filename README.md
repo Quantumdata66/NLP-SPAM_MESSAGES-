@@ -1,8 +1,8 @@
 # SMS Spam Detection using NLP
 
-An end-to-end Natural Language Processing (NLP) project for detecting whether an SMS message is **spam** or **ham (legitimate)**.
+An end to end Natural Language Processing (NLP) project for detecting whether an SMS message is **spam** or **ham (legitimate)**.
 
-This project compares a traditional machine-learning baseline using **TF-IDF + Logistic Regression** with an advanced **DistilBERT** transformer model. The final DistilBERT model is integrated into an interactive **Streamlit** application.
+This project compares a traditional machine learning baseline using **TF-IDF + Logistic Regression** with an advanced **DistilBERT** transformer model. The final DistilBERT model is integrated into an interactive **Streamlit** application.
 
 ---
 
@@ -67,7 +67,7 @@ The data preparation process included:
 - Checking for missing values
 - Cleaning unnecessary HTML-like tags and whitespace
 - Converting text to lowercase
-- Preserving useful spam-related information such as numbers, punctuation, URLs, and currency symbols
+- Preserving useful spam related information such as numbers, punctuation, URLs, and currency symbols
 
 The data was divided using a **70/15/15 stratified split**:
 
@@ -85,7 +85,7 @@ The baseline model uses traditional NLP techniques.
 
 ### TF-IDF
 
-**Term Frequency-Inverse Document Frequency (TF-IDF)** was used to convert SMS messages into numerical feature vectors.
+**Term Frequency Inverse Document Frequency (TF-IDF)** was used to convert SMS messages into numerical feature vectors.
 
 The implementation used:
 
